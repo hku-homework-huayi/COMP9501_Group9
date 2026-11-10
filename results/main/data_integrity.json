@@ -1,0 +1,32 @@
+{
+  "pie_public": {
+    "images": 1632,
+    "classes": 68,
+    "per_class": [
+      24
+    ],
+    "unique_normalized_images": 1632,
+    "duplicate_groups": [],
+    "cross_class_duplicate_groups": [],
+    "finite": true,
+    "range": [
+      -0.5,
+      0.5
+    ]
+  },
+  "orl": {
+    "images": 400,
+    "classes": 40,
+    "per_class": [
+      10
+    ],
+    "unique_normalized_images": 400,
+    "duplicate_groups": [],
+    "cross_class_duplicate_groups": [],
+    "finite": true,
+    "range": [
+      -0.5,
+      0.5
+    ]
+  }
+}

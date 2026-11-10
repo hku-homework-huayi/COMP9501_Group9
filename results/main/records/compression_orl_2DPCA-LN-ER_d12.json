@@ -1,0 +1,41 @@
+{
+  "phase": "compression",
+  "dataset": "orl",
+  "method": "2DPCA-LN-ER",
+  "d": 12,
+  "n": 400,
+  "shape": [
+    64,
+    64
+  ],
+  "rmse": 4.776045136441824,
+  "pixel_rmse": 0.0746257052569035,
+  "compression_ratio": 5.315537012313916,
+  "index_bits": 8336,
+  "iterations": 1,
+  "stop_reason": "identity",
+  "seconds": 0.010896930994931608,
+  "history": [
+    {
+      "iteration": 0,
+      "sse": 9137.211728623493,
+      "rmse": 4.779438180535316,
+      "seconds": 0.0018483739986550063,
+      "moved": 0,
+      "inner_iterations": 1,
+      "eigen_energy": 0.9334301128220699
+    },
+    {
+      "iteration": 1,
+      "sse": 9124.24285813184,
+      "rmse": 4.776045136441824,
+      "surrogate_sse": 9136.418949635088,
+      "moved": 18,
+      "seconds": 0.007387129997368902,
+      "inner_iterations": 1,
+      "eigen_energy": 0.9335246005202417
+    }
+  ],
+  "moved_fraction": 0.00439453125,
+  "eigen_energy": 0.9335246005202417
+}

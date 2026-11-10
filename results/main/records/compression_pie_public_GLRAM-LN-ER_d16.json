@@ -1,0 +1,41 @@
+{
+  "phase": "compression",
+  "dataset": "pie_public",
+  "method": "GLRAM-LN-ER",
+  "d": 16,
+  "n": 1632,
+  "shape": [
+    64,
+    64
+  ],
+  "rmse": 4.588824512329515,
+  "pixel_rmse": 0.07170038300514867,
+  "compression_ratio": 15.91216340463213,
+  "index_bits": 8264,
+  "iterations": 1,
+  "stop_reason": "identity",
+  "seconds": 0.048933081998256966,
+  "history": [
+    {
+      "iteration": 0,
+      "sse": 34384.83296630628,
+      "rmse": 4.590113053836626,
+      "seconds": 0.01879521500086412,
+      "moved": 0,
+      "inner_iterations": 4,
+      "eigen_energy": 0.9502967088544414
+    },
+    {
+      "iteration": 1,
+      "sse": 34365.530580888524,
+      "rmse": 4.588824512329515,
+      "surrogate_sse": 34378.57782188046,
+      "moved": 9,
+      "seconds": 0.04122092999750748,
+      "inner_iterations": 3,
+      "eigen_energy": 0.9504384660324812
+    }
+  ],
+  "moved_fraction": 0.002197265625,
+  "eigen_energy": 0.9504384660324812
+}

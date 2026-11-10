@@ -1,0 +1,16 @@
+{
+  "phase": "classification",
+  "dataset": "orl",
+  "gallery": 5,
+  "seed": 3,
+  "n_train": 200,
+  "n_test": 200,
+  "classes": 40,
+  "method": "1DMFA",
+  "rank": [
+    39
+  ],
+  "accuracy": 0.935,
+  "correct": 187,
+  "seconds": 0.02512631702120416
+}

@@ -1,0 +1,18 @@
+{
+  "README.md": "518b51ac3b6b7e688fa93ab8c636f951d35d85f78d78abb962b946a9981236c9",
+  "configs/paper_protocol.json": "272db6f8175907ed99533f589ac9531641dea76f7b6754cc8cd5995473eca11f",
+  "configs/reproduction.json": "1b40d7121b350e9fb8822470ed0742e9a7e4deef3ee8aa512d6896b9f4079002",
+  "pyproject.toml": "385c54596bb0ddab327b7b1046d69f7327d0c56cc0c91dfa0399122d7ace3a9d",
+  "requirements.txt": "ba2b13dad8ef910c18e3cf0dc8eb9f7d15bdcf4067b550025f0b3dbdbaa479a1",
+  "scripts/build_report.py": "d1e0b4bd5a55a29578ef0959401c8a14e3536758c733878611de66803131a72d",
+  "scripts/check_convergence.py": "701cde048720e70ed2f49642ff105a9a7556be27ae2783f07f65134db843c7ca",
+  "scripts/download_data.py": "ae6ec700d48b2ca6f75e901cfb1ca9b5dfb4aaa3e66c54e5229fe62d020b7ca4",
+  "scripts/reproduce.sh": "1cd587261b27f54a6fff8a37f86269abe7bcdfea1b6c0a079e9d6df6787eee86",
+  "scripts/run_experiments.py": "fde811e652f8343875c4fdf93f413ec7913b135e74f89eaa725f810e3f5ce093",
+  "scripts/verify_results.py": "fc540675fa874245cefabfe70fa7ba3510517b1f9d49fd2e47ae8e0b2ae21a62",
+  "src/ebsl/__init__.py": "03abdd7c7fa27d0436544822af6a23ed8df5b61123d4fe0e64bd6ffc984736b3",
+  "src/ebsl/core.py": "dd5426af2287479fb86c52f51095ae161ebda61258f7c06181c66cc7d72f31e6",
+  "src/ebsl/data.py": "331e3bc9473ff2e30acf1f9a3ac39e0c9bd0332cf973656065427756c8f77eac",
+  "src/ebsl/supervised.py": "bd3d30b8273f26b72c3b0f966f9546b28b9e2cd3a5115b8bf95e111db7c3af66",
+  "tests/test_core.py": "557d921a1a8e32628ab8d6438ec0b7984f82325f160da3e3b1dc1d11a2123bb5"
+}

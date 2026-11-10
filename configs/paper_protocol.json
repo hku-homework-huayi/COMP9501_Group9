@@ -1,0 +1,12 @@
+{
+  "reference_only": true,
+  "status": "Exact paper data, eye alignment and random split identities unavailable",
+  "pie": {"classes":63,"per_class":20,"poses":["C27","C05","C29","C09","C07"],"illuminations":["08","11","10","13"],"train_per_class":[4,5,6]},
+  "feret": {"classes":200,"per_class":7,"train":["ba","bc","bh"],"test":["bd","be","bf","bg"]},
+  "image_size":[64,64],"normalization":"histogram equalization, divide by 255, subtract 0.5",
+  "neighbors":25,"supervised_er_neighborhood":"ln","discriminant_iterations":10,
+  "paper_dim_grid":{"m_prime":[2,40,2],"n_prime":[2,40,2]},
+  "paper_mfa_k2_grid":[25,600,25],"mfa_er_k2":25,
+  "paper_reporting":"best test accuracy across parameter grid; this reproduction instead reports predeclared fixed ranks",
+  "unspecified_by_paper":["exact subject IDs for PIE","random seeds","number of split repeats","eye coordinate template","histogram equalization bin count","GLRAM inner stopping tolerance","ER proxy rank choice details","singular scatter regularization"]
+}

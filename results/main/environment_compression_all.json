@@ -1,0 +1,29 @@
+{
+  "started_local": "2026-11-10T21:45:29.733389+08:00",
+  "python": "3.10.20",
+  "torch": "2.5.1+cu121",
+  "numpy": "2.2.6",
+  "scipy": "1.15.3",
+  "cuda_runtime": "12.1",
+  "device": "NVIDIA GeForce RTX 4090 D",
+  "device_total_memory": 50857050112,
+  "source_sha256": {
+    "src/ebsl/__init__.py": "03abdd7c7fa27d0436544822af6a23ed8df5b61123d4fe0e64bd6ffc984736b3",
+    "src/ebsl/core.py": "dd5426af2287479fb86c52f51095ae161ebda61258f7c06181c66cc7d72f31e6",
+    "src/ebsl/data.py": "331e3bc9473ff2e30acf1f9a3ac39e0c9bd0332cf973656065427756c8f77eac",
+    "src/ebsl/supervised.py": "f123cd0929d29aa5123368d78bcc5627d213f8cc3e2bc74fa2e93336066e669b"
+  },
+  "runner_sha256": "76f6c90824abb65a864d2c220d6bb377970841ee5af0903b96cb5c8176f6fbc1",
+  "config_sha256": "1b40d7121b350e9fb8822470ed0742e9a7e4deef3ee8aa512d6896b9f4079002",
+  "deterministic_algorithms": true,
+  "tf32": false,
+  "command": [
+    "scripts/run_experiments.py",
+    "--phase",
+    "compression"
+  ],
+  "pid": 1291498,
+  "completed_local": "2026-11-10T21:52:14.028002+08:00",
+  "total_seconds": 404.2786640939885,
+  "peak_torch_memory_bytes": 264561664
+}

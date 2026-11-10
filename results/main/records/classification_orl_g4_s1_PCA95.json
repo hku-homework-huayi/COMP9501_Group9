@@ -1,0 +1,16 @@
+{
+  "phase": "classification",
+  "dataset": "orl",
+  "gallery": 4,
+  "seed": 1,
+  "n_train": 160,
+  "n_test": 240,
+  "classes": 40,
+  "method": "PCA95",
+  "rank": [
+    86
+  ],
+  "accuracy": 0.8333333333333334,
+  "correct": 200,
+  "seconds": 0.004457932984223589
+}

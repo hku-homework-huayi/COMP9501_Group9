@@ -1,0 +1,23 @@
+{
+  "phase": "holdout",
+  "dataset": "pie_public",
+  "method": "GLRAM",
+  "d": 5,
+  "train_per_class": 6,
+  "seed": 42,
+  "n_train": 408,
+  "n_test": 1224,
+  "test_rmse": 9.161836639383072,
+  "train_rmse": 9.082806854399319,
+  "seconds": 0.09111477600526996,
+  "stop_reason": "baseline",
+  "history": [
+    {
+      "iteration": 0,
+      "sse": 33658.93118456389,
+      "rmse": 9.082806854399319,
+      "inner_iterations": 5,
+      "eigen_energy": 0.8170808705862967
+    }
+  ]
+}

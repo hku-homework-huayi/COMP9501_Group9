@@ -1,0 +1,71 @@
+{
+  "phase": "compression",
+  "dataset": "orl",
+  "method": "GLRAM-LN-ER",
+  "d": 16,
+  "n": 400,
+  "shape": [
+    64,
+    64
+  ],
+  "rmse": 5.231935488616167,
+  "pixel_rmse": 0.08174899200962761,
+  "compression_ratio": 15.644111735470904,
+  "index_bits": 9008,
+  "iterations": 4,
+  "stop_reason": "identity",
+  "seconds": 0.08288860999164172,
+  "history": [
+    {
+      "iteration": 0,
+      "sse": 11005.58957745316,
+      "rmse": 5.245376434883668,
+      "seconds": 0.016504770988831297,
+      "moved": 0,
+      "inner_iterations": 4,
+      "eigen_energy": 0.9329996300067999
+    },
+    {
+      "iteration": 1,
+      "sse": 10973.115855380158,
+      "rmse": 5.237632064058184,
+      "surrogate_sse": 10995.047082000048,
+      "moved": 51,
+      "seconds": 0.03411539999069646,
+      "inner_iterations": 3,
+      "eigen_energy": 0.9337828642891032
+    },
+    {
+      "iteration": 2,
+      "sse": 10959.421563405584,
+      "rmse": 5.234362798709501,
+      "surrogate_sse": 10967.883429191794,
+      "moved": 49,
+      "seconds": 0.05111308200866915,
+      "inner_iterations": 3,
+      "eigen_energy": 0.9339864835325787
+    },
+    {
+      "iteration": 3,
+      "sse": 10950.23236719368,
+      "rmse": 5.232167898489516,
+      "surrogate_sse": 10957.62143970119,
+      "moved": 41,
+      "seconds": 0.0653274400101509,
+      "inner_iterations": 2,
+      "eigen_energy": 0.9342519103894698
+    },
+    {
+      "iteration": 4,
+      "sse": 10949.259582816518,
+      "rmse": 5.231935488616167,
+      "surrogate_sse": 10950.008482164452,
+      "moved": 4,
+      "seconds": 0.07925679799518548,
+      "inner_iterations": 2,
+      "eigen_energy": 0.9342556484908837
+    }
+  ],
+  "moved_fraction": 0.02490234375,
+  "eigen_energy": 0.9342556484908837
+}

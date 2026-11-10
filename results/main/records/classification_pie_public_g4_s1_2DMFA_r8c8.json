@@ -1,0 +1,21 @@
+{
+  "phase": "classification",
+  "dataset": "pie_public",
+  "gallery": 4,
+  "seed": 1,
+  "n_train": 272,
+  "n_test": 1360,
+  "classes": 68,
+  "method": "2DMFA",
+  "rank": [
+    8,
+    8
+  ],
+  "accuracy": 0.8102941176470588,
+  "correct": 1102,
+  "seconds": 0.029623312002513558,
+  "er_iterations": 0,
+  "er_stop_reason": null,
+  "er_history": [],
+  "nullspace": null
+}

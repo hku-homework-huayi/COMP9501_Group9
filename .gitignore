@@ -1,0 +1,36 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+tmp/
+.DS_Store
+
+# Download original data/paper locally; retain provenance in Git.
+/data/*
+!/data/README.md
+!/data/manifest.json
+/papers/*
+!/papers/README.md
+!/papers/citation.bib
+!/papers/paper_table1.json
+
+# Publish reports under reports/, preserving original copies locally.
+/output/
+/results/main/report.html
+/results/main/examples_*.npz
+/results/main/invocations/
+/results/*
+!/results/main/
+!/results/convergence_check/
+/logs/*first_attempt*
+
+# Credentials must never enter the checkout.
+.env
+.env.*
+*.pem
+*.key
+id_ed25519*
+id_rsa*

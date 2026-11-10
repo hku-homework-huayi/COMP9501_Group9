@@ -1,0 +1,29 @@
+{
+  "phase": "compression",
+  "dataset": "orl",
+  "method": "2DPCA",
+  "d": 4,
+  "n": 400,
+  "shape": [
+    64,
+    64
+  ],
+  "rmse": 8.842818184677652,
+  "pixel_rmse": 0.13816903413558831,
+  "compression_ratio": 15.960099750623442,
+  "index_bits": 0,
+  "iterations": 0,
+  "stop_reason": "baseline",
+  "seconds": 0.0023126029991544783,
+  "history": [
+    {
+      "iteration": 0,
+      "sse": 31278.17337890631,
+      "rmse": 8.842818184677652,
+      "inner_iterations": 1,
+      "eigen_energy": 0.7721204608113864
+    }
+  ],
+  "moved_fraction": 0.0,
+  "eigen_energy": 0.7721204608113864
+}

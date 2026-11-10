@@ -1,0 +1,19 @@
+{
+  "datasets": ["pie_public", "orl"],
+  "device": "cuda",
+  "dtype": "float32",
+  "compression_ranks": [2, 3, 4, 5, 8, 12, 16, 24, 32],
+  "classification_ranks": [[8, 8], [12, 8]],
+  "train_per_class": [4, 5, 6],
+  "seeds": [0, 1, 2, 3, 4],
+  "er_max_iter": 100,
+  "er_tol": 1e-7,
+  "inner_max_iter": 100,
+  "inner_tol": 1e-7,
+  "discriminant_iterations": 10,
+  "ridge": 1e-6,
+  "mfa_k2": 25,
+  "histogram_equalization": true,
+  "rank_selection": "Two predeclared fixed ranks; report every result. No test-set selection.",
+  "paper_protocol_match": false
+}

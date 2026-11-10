@@ -1,0 +1,16 @@
+{
+  "phase": "classification",
+  "dataset": "pie_public",
+  "gallery": 6,
+  "seed": 2,
+  "n_train": 408,
+  "n_test": 1224,
+  "classes": 68,
+  "method": "PCA95",
+  "rank": [
+    90
+  ],
+  "accuracy": 0.7834967320261438,
+  "correct": 959,
+  "seconds": 0.01590493699768558
+}

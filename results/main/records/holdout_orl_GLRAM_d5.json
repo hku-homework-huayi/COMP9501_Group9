@@ -1,0 +1,23 @@
+{
+  "phase": "holdout",
+  "dataset": "orl",
+  "method": "GLRAM",
+  "d": 5,
+  "train_per_class": 6,
+  "seed": 42,
+  "n_train": 240,
+  "n_test": 160,
+  "test_rmse": 10.477675278129771,
+  "train_rmse": 10.457501546251246,
+  "seconds": 0.03533517400501296,
+  "stop_reason": "baseline",
+  "history": [
+    {
+      "iteration": 0,
+      "sse": 26246.24126156333,
+      "rmse": 10.457501546251246,
+      "inner_iterations": 5,
+      "eigen_energy": 0.7444047176667824
+    }
+  ]
+}

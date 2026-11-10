@@ -1,0 +1,21 @@
+{
+  "phase": "classification",
+  "dataset": "orl",
+  "gallery": 4,
+  "seed": 0,
+  "n_train": 160,
+  "n_test": 240,
+  "classes": 40,
+  "method": "2DMFA",
+  "rank": [
+    12,
+    8
+  ],
+  "accuracy": 0.8,
+  "correct": 192,
+  "seconds": 0.016985107999062166,
+  "er_iterations": 0,
+  "er_stop_reason": null,
+  "er_history": [],
+  "nullspace": null
+}

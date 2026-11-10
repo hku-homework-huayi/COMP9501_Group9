@@ -1,0 +1,20 @@
+{
+  "phase": "compression",
+  "dataset": "pie_public",
+  "method": "PCA",
+  "d": 32,
+  "n": 1632,
+  "shape": [
+    64,
+    64
+  ],
+  "rmse": 6.306801118885085,
+  "pixel_rmse": 0.09854376748257945,
+  "compression_ratio": 36.46927374301676,
+  "index_bits": 0,
+  "iterations": 0,
+  "stop_reason": "svd",
+  "seconds": 0.1704418270091992,
+  "history": [],
+  "eigen_energy": 0.8544751405715942
+}

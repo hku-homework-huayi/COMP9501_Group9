@@ -1,0 +1,21 @@
+{
+  "phase": "classification",
+  "dataset": "pie_public",
+  "gallery": 6,
+  "seed": 3,
+  "n_train": 408,
+  "n_test": 1224,
+  "classes": 68,
+  "method": "2DLDA",
+  "rank": [
+    12,
+    8
+  ],
+  "accuracy": 0.9117647058823529,
+  "correct": 1116,
+  "seconds": 0.014267791993916035,
+  "er_iterations": 0,
+  "er_stop_reason": null,
+  "er_history": [],
+  "nullspace": null
+}

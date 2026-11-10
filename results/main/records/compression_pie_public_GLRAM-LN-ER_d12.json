@@ -1,0 +1,81 @@
+{
+  "phase": "compression",
+  "dataset": "pie_public",
+  "method": "GLRAM-LN-ER",
+  "d": 12,
+  "n": 1632,
+  "shape": [
+    64,
+    64
+  ],
+  "rmse": 5.56666874978193,
+  "pixel_rmse": 0.08697919921534265,
+  "compression_ratio": 28.218077129677607,
+  "index_bits": 11176,
+  "iterations": 5,
+  "stop_reason": "identity",
+  "seconds": 0.1435302929894533,
+  "history": [
+    {
+      "iteration": 0,
+      "sse": 51012.272096087276,
+      "rmse": 5.590842482731931,
+      "seconds": 0.018601540010422468,
+      "moved": 0,
+      "inner_iterations": 4,
+      "eigen_energy": 0.9292318411458714
+    },
+    {
+      "iteration": 1,
+      "sse": 50716.77919782869,
+      "rmse": 5.574626251311096,
+      "surrogate_sse": 50880.50302114251,
+      "moved": 239,
+      "seconds": 0.04343688100925647,
+      "inner_iterations": 3,
+      "eigen_energy": 0.9307920259544097
+    },
+    {
+      "iteration": 2,
+      "sse": 50611.32668520174,
+      "rmse": 5.568827734058463,
+      "surrogate_sse": 50681.25529280864,
+      "moved": 150,
+      "seconds": 0.06943710701307282,
+      "inner_iterations": 3,
+      "eigen_energy": 0.9312400162150578
+    },
+    {
+      "iteration": 3,
+      "sse": 50593.096635267604,
+      "rmse": 5.567824706102425,
+      "surrogate_sse": 50603.00149545788,
+      "moved": 51,
+      "seconds": 0.09082689601927996,
+      "inner_iterations": 2,
+      "eigen_energy": 0.9312702520205128
+    },
+    {
+      "iteration": 4,
+      "sse": 50576.064592106675,
+      "rmse": 5.566887429877499,
+      "surrogate_sse": 50591.03827719542,
+      "moved": 37,
+      "seconds": 0.11211964700487442,
+      "inner_iterations": 2,
+      "eigen_energy": 0.9313616637704697
+    },
+    {
+      "iteration": 5,
+      "sse": 50572.09118271149,
+      "rmse": 5.56666874978193,
+      "surrogate_sse": 50575.614249263526,
+      "moved": 29,
+      "seconds": 0.1341171870008111,
+      "inner_iterations": 2,
+      "eigen_energy": 0.93142971131344
+    }
+  ],
+  "moved_fraction": 0.091064453125,
+  "eigen_energy": 0.93142971131344
+}

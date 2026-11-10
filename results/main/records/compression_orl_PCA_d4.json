@@ -1,0 +1,20 @@
+{
+  "phase": "compression",
+  "dataset": "orl",
+  "method": "PCA",
+  "d": 4,
+  "n": 400,
+  "shape": [
+    64,
+    64
+  ],
+  "rmse": 11.047074451473412,
+  "pixel_rmse": 0.17261053830427206,
+  "compression_ratio": 91.1032028469751,
+  "index_bits": 0,
+  "iterations": 0,
+  "stop_reason": "svd",
+  "seconds": 0.01860865598428063,
+  "history": [],
+  "eigen_energy": 0.3862816095352173
+}

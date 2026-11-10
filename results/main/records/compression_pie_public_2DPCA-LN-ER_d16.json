@@ -1,0 +1,31 @@
+{
+  "phase": "compression",
+  "dataset": "pie_public",
+  "method": "2DPCA-LN-ER",
+  "d": 16,
+  "n": 1632,
+  "shape": [
+    64,
+    64
+  ],
+  "rmse": 3.644495211964124,
+  "pixel_rmse": 0.05694523768693944,
+  "compression_ratio": 3.996938619317312,
+  "index_bits": 8192,
+  "iterations": 0,
+  "stop_reason": "identity",
+  "seconds": 0.009129900019615889,
+  "history": [
+    {
+      "iteration": 0,
+      "sse": 21676.787611248023,
+      "rmse": 3.644495211964124,
+      "seconds": 0.002235983993159607,
+      "moved": 0,
+      "inner_iterations": 1,
+      "eigen_energy": 0.9606373064702017
+    }
+  ],
+  "moved_fraction": 0.0,
+  "eigen_energy": 0.9606373064702017
+}

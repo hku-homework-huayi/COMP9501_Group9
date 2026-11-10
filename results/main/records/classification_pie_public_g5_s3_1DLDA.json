@@ -1,0 +1,16 @@
+{
+  "phase": "classification",
+  "dataset": "pie_public",
+  "gallery": 5,
+  "seed": 3,
+  "n_train": 340,
+  "n_test": 1292,
+  "classes": 68,
+  "method": "1DLDA",
+  "rank": [
+    67
+  ],
+  "accuracy": 0.9164086687306502,
+  "correct": 1184,
+  "seconds": 0.01697073702234775
+}

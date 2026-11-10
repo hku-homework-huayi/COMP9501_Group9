@@ -1,0 +1,61 @@
+{
+  "phase": "compression",
+  "dataset": "pie_public",
+  "method": "2DPCA-NN-ER",
+  "d": 12,
+  "n": 1632,
+  "shape": [
+    64,
+    64
+  ],
+  "rmse": 4.447848536281586,
+  "pixel_rmse": 0.06949763337939978,
+  "compression_ratio": 5.328964723073557,
+  "index_bits": 8304,
+  "iterations": 3,
+  "stop_reason": "identity",
+  "seconds": 0.0671214530011639,
+  "history": [
+    {
+      "iteration": 0,
+      "sse": 32345.456917846906,
+      "rmse": 4.4519119679357235,
+      "seconds": 0.0025015580176841468,
+      "moved": 0,
+      "inner_iterations": 1,
+      "eigen_energy": 0.9412641954329029
+    },
+    {
+      "iteration": 1,
+      "sse": 32298.846879347504,
+      "rmse": 4.448703192801179,
+      "surrogate_sse": 32331.33837801775,
+      "moved": 10,
+      "seconds": 0.019132323999656364,
+      "inner_iterations": 1,
+      "eigen_energy": 0.9413488369159602
+    },
+    {
+      "iteration": 2,
+      "sse": 32291.677878869174,
+      "rmse": 4.448209451873693,
+      "surrogate_sse": 32297.37293665824,
+      "moved": 3,
+      "seconds": 0.03654877201188356,
+      "inner_iterations": 1,
+      "eigen_energy": 0.941361855288663
+    },
+    {
+      "iteration": 3,
+      "sse": 32286.437973978067,
+      "rmse": 4.447848536281586,
+      "surrogate_sse": 32288.822892949975,
+      "moved": 3,
+      "seconds": 0.053020563995232806,
+      "inner_iterations": 1,
+      "eigen_energy": 0.9413713716102243
+    }
+  ],
+  "moved_fraction": 0.00341796875,
+  "eigen_energy": 0.9413713716102243
+}

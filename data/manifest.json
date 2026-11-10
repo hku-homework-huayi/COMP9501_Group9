@@ -1,0 +1,45 @@
+{
+  "paper": {
+    "url": "https://www.ee.columbia.edu/ln/dvmm/publications/09/xu_ebsl.pdf",
+    "sha256": "9548936df905405ce49ce6fbfa305480069235f71a6143f41480623c98b3bed6"
+  },
+  "pie_public": {
+    "url": "https://github.com/Gunther17/CMU_PIE-dataset",
+    "archive": "cmupie_1632.rar",
+    "sha256": "5526a55909b8788d81698ff9922be8eb64ab69f6b69ec5d1eb4ae359e4f7a0bb",
+    "images": 1632,
+    "classes": 68,
+    "per_class": 24,
+    "resolution": [
+      64,
+      64
+    ],
+    "exact_paper_subset": false,
+    "limitations": "Third-party public mirror; class labels from folders. Original camera/illumination identifiers and eye landmarks are absent. Not the paper's 63x20 subset; original alignment cannot be independently verified."
+  },
+  "orl": {
+    "url": "http://www.cad.zju.edu.cn/home/dengcai/Data/ORL/ORL_64x64.mat",
+    "sha256": "8235e632b2083a2422cb1c2c5e0eda4272af2aa0b40abce20868ad09e5ba92a5",
+    "images": 400,
+    "classes": 40,
+    "per_class": 10,
+    "resolution": [
+      64,
+      64
+    ],
+    "exact_paper_subset": false,
+    "limitations": "Additional external validation dataset, not used in the paper."
+  },
+  "feret": {
+    "status": "not_available",
+    "original_grayscale_download": false,
+    "source": "https://www.nist.gov/itl/products-and-services/color-feret-database",
+    "limitations": "NIST does not currently offer original grayscale FERET for download. Color FERET requires a release agreement and account and is a different release."
+  },
+  "preprocessing": {
+    "histogram_equalization": "per-image, 256 bins, CDF-min, rounded uint8",
+    "normalization": "float32 / 255 - 0.5",
+    "resize": false,
+    "dataset_mean_subtraction_for_bilinear": false
+  }
+}

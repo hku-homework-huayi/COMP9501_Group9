@@ -1,0 +1,16 @@
+{
+  "source":"Xu et al., TPAMI 31(10), 2009, Table 1, page 1919",
+  "url":"https://www.ee.columbia.edu/ln/dvmm/publications/09/xu_ebsl.pdf",
+  "unit":"percent",
+  "warning":"Published reference values, not measurements from this reproduction; different dataset subset and model-selection protocol.",
+  "columns":["FERET","PIE_G4_P16","PIE_G5_P15","PIE_G6_P14"],
+  "rows":[
+    {"method":"PCA","accuracy":[45.1,43.3,49.2,49.2],"dimensions":["440","191","264","341"]},
+    {"method":"1DLDA","accuracy":[91.8,76.2,83.2,88.7],"dimensions":["33","44","52","51"]},
+    {"method":"2DLDA","accuracy":[94.8,81.9,85.8,88.9],"dimensions":["14x8","30x8","16x6","22x6"]},
+    {"method":"2DLDA-LN-ER","accuracy":[95.6,83.7,86.1,91.2],"dimensions":["22x4","12x8","26x10","18x10"]},
+    {"method":"1DMFA","accuracy":[92.1,77.3,84.3,89.5],"dimensions":["32","46","52","54"]},
+    {"method":"2DMFA","accuracy":[94.0,82.8,86.1,89.2],"dimensions":["14x6","20x4","18x4","20x16"]},
+    {"method":"2DMFA-LN-ER","accuracy":[96.5,86.4,88.6,91.2],"dimensions":["18x4","26x4","20x8","14x8"]}
+  ]
+}

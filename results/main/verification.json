@@ -1,0 +1,15 @@
+{
+  "expected_records": 462,
+  "actual_records": 462,
+  "permutation_models": 474,
+  "monotone_histories": 234,
+  "prediction_files": 330,
+  "split_files": 32,
+  "recomputed_classifications": 24,
+  "recomputed_compression_models": 108,
+  "max_rmse_discrepancy": 4.921327789730867e-09,
+  "capped_runs": [
+    "compression_orl_GLRAM-NN-ER_d3.json"
+  ],
+  "status": "passed"
+}

@@ -1,0 +1,29 @@
+{
+  "phase": "compression",
+  "dataset": "orl",
+  "method": "GLRAM",
+  "d": 2,
+  "n": 400,
+  "shape": [
+    64,
+    64
+  ],
+  "rmse": 14.423165061209888,
+  "pixel_rmse": 0.2253619540814045,
+  "compression_ratio": 882.7586206896551,
+  "index_bits": 0,
+  "iterations": 0,
+  "stop_reason": "baseline",
+  "seconds": 0.046268356003565714,
+  "history": [
+    {
+      "iteration": 0,
+      "sse": 83211.07615316226,
+      "rmse": 14.423165061209888,
+      "inner_iterations": 13,
+      "eigen_energy": 0.5594091796684879
+    }
+  ],
+  "moved_fraction": 0.0,
+  "eigen_energy": 0.5594091796684879
+}
